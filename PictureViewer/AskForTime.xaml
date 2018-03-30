@@ -1,0 +1,21 @@
+﻿<Window x:Class="PictureViewer.AskForTime"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PictureViewer"
+        mc:Ignorable="d"
+        Title="Set Animation Time" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <StackPanel Margin="10">
+		<DockPanel Margin="0,0,0,10">
+			<TextBlock DockPanel.Dock="Left" Margin="0,0,10,0">
+			Time in seconds:
+			</TextBlock>
+			<TextBox x:Name="txtTime" MinWidth="100"/>
+		</DockPanel>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0">
+			<Button Content="OK" Width="50" IsDefault="True" Margin="0,0,10,0" Click="BtnOK_Clicked" />
+			<Button Content="Cancel" Width="50" IsCancel="True" />
+		</StackPanel>
+	</StackPanel>
+</Window>

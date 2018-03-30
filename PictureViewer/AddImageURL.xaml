@@ -1,0 +1,16 @@
+﻿<Window x:Class="PictureViewer.AddImageURL"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PictureViewer"
+        mc:Ignorable="d"
+        Title="Add Image URL" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Icon="Resources/Web.ico">
+    <StackPanel Margin="5">
+		<TextBlock Margin="0,0,0,5">
+			Enter Address:
+		</TextBlock>
+		<TextBox x:Name="txtURL" Width="300" Margin="0,0,0,5" Text="http://"/>
+		<Button Content="OK" Width="60" HorizontalAlignment="Right" IsDefault="True" Click="OK_Clicked"/>
+	</StackPanel>
+</Window>
