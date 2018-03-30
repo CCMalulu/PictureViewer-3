@@ -1,6 +1,6 @@
 # PictureViewer
 
-A small windows application for opening and viewing image files. It has a few extra features:
+A small Windows application for opening and viewing image files. It has a few extra features:
 
 - Slideshow with adjustable delay
 - Queue sidebar
